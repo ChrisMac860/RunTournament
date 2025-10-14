@@ -1,0 +1,51 @@
+<!doctype html>
+<!-- README: Edit /data/season.json and push. Deploy via GitHub Pages (Settings → Pages). -->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sraith Cothrom 5K — Craigavon Pilot</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="photos/Logo.png" alt="Sraith Cothrom 5K" class="brand-logo" />
+      <div class="brand-text">
+        <h1 class="brand-title">Sraith Cothrom 5K</h1>
+        <p class="tag">Saturday Handicap League — Craigavon</p>
+      </div>
+    </div>
+    <nav class="top-nav">
+      <a class="tab active" href="index.html" aria-current="page">Home</a>
+      <a class="tab" href="league.html">League</a>
+      <a class="tab" href="calculator.html">Calculator</a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <section class="card">
+      <h2>How it works</h2>
+      <ol class="tight">
+        <li>We use your <strong>parkrun result time</strong>. Strava is for verification.</li>
+        <li>Handicap = pace vs <strong>20:00 (240 s/km)</strong>, rounded to <strong>nearest 10 s/km</strong>.</li>
+        <li>Only course for the pilot: <strong>Craigavon</strong> (Course Rating CR = 0).</li>
+        <li><strong>NET</strong> = (pace − CR) − handicap. Lowest NET wins.</li>
+      </ol>
+    </section>
+
+    <nav class="grid-2">
+      <a class="btn primary" href="league.html">League table</a>
+      <a class="btn" href="calculator.html">Handicap calculator</a>
+    </nav>
+
+    <section class="card tone">
+      <h3>Update data</h3>
+      <p>Edit <code>data/season.json</code> (players, starting handicaps, weekly times) and push. Pages recompute on load.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">Independent community league. Not affiliated with parkrun®.</footer>
+</body>
+</html>

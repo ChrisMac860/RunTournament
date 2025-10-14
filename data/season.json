@@ -1,0 +1,52 @@
+{
+  "config": {
+    "season": "Craigavon Pilot",
+    "course": "CRAIGAVON"
+  },
+  "players": [
+    { "id": "p1", "name": "Alex Carter", "hi": 30, "pdHistory": [] },
+    { "id": "p2", "name": "Jamie O'Neill", "hi": 40, "pdHistory": [] },
+    { "id": "p3", "name": "Morgan Patel", "hi": 20, "pdHistory": [] },
+    { "id": "p4", "name": "Casey Byrne", "hi": 50, "pdHistory": [] },
+    { "id": "p5", "name": "Riley Chen", "hi": 60, "pdHistory": [] },
+    { "id": "p6", "name": "Taylor Hughes", "hi": 10, "pdHistory": [] }
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "date": "2025-09-27",
+      "results": [
+        { "playerId": "p1", "time": "22:10" },
+        { "playerId": "p2", "time": "24:05" },
+        { "playerId": "p3", "time": "21:20" },
+        { "playerId": "p4", "time": "25:40" },
+        { "playerId": "p5", "time": "26:15" },
+        { "playerId": "p6", "time": "20:50" }
+      ]
+    },
+    {
+      "week": 2,
+      "date": "2025-10-04",
+      "results": [
+        { "playerId": "p1", "time": "21:55" },
+        { "playerId": "p2", "time": "23:30" },
+        { "playerId": "p3", "time": "21:05" },
+        { "playerId": "p4", "time": "26:10" },
+        { "playerId": "p5", "time": "25:45" },
+        { "playerId": "p6", "time": "20:30" }
+      ]
+    },
+    {
+      "week": 3,
+      "date": "2025-10-11",
+      "results": [
+        { "playerId": "p1", "time": "21:40" },
+        { "playerId": "p2", "time": "23:10" },
+        { "playerId": "p3", "time": "20:55" },
+        { "playerId": "p4", "time": "26:05" },
+        { "playerId": "p5", "time": "25:20" },
+        { "playerId": "p6", "time": "20:20" }
+      ]
+    }
+  ]
+}
